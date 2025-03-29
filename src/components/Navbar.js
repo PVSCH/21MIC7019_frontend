@@ -38,11 +38,21 @@ const Navbar = () => {
 
       {/* Bottom Section: Navigation Links */}
       <div className="nav-links">
-        <a href="#" className="active">Trademarks</a>
-        <a href="#">Owners</a>
-        <a href="#">Logos</a>
-        <a href="#">Internet Brand Search</a>
-        <a href="#">Copyrights</a>
+        <a href="#" className="active"> 
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyjbsqtcSEdjf3otLXSfMUT0kDOI1_FJU1g&s"/>
+             Trademarks</a>
+        <a href="#">
+          <img src="https://www.shutterstock.com/image-vector/people-person-icon-modern-flat-600nw-1691909635.jpg"/>
+          Owners </a>
+        <a href="#">
+          <img src="https://www.shutterstock.com/image-vector/plant-icon-silhouette-two-branches-260nw-2343066399.jpg"/>
+          Logos</a>
+        <a href="#">
+          <img src="https://logowik.com/content/uploads/images/283_world.jpg"/>
+          Internet Brand Search</a>
+        <a href="#">
+          <img src="https://static.vecteezy.com/system/resources/previews/012/617/076/non_2x/copyright-simple-flat-symbol-icon-illustration-free-vector.jpg"/>
+          Copyrights</a>
       </div>
     </div>
     

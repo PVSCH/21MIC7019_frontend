@@ -1,4 +1,11 @@
 /* Navbar Container */
+body {
+    background-color: #f0f0f0; /* Set the background color of the entire page to light gray */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;
@@ -45,9 +52,9 @@
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%;
-    height: 48px;
-    border-radius: 24px;
+    width: 80%;
+    height: 55px; /* Input container height */
+    border-radius: 10px;
     background-color: white;
     box-shadow: inset 0 0 0 1px #ccc;
     transition: box-shadow 0.3s ease;
@@ -66,7 +73,7 @@
     font-size: 11px; /* Increase font size */
     font-weight: 500;
     border: none;
-    border-radius: 14px;
+    border-radius: 8px;
     outline: none;
     padding-left: 60px;
 }
@@ -93,37 +100,53 @@
 }
 
 .camera-icon img {
-    width: 20px; /* Adjust icon size */
-    height: 20px;
+    width: 30px; /* Adjust icon size */
+    height: 30px;
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 
 /* Search Button */
 .search-button {
     margin-left: 10px;
-    padding: 10px 20px; /* Increase button size */
-    font-size: 16px; /* Increase font size */
-    border-radius: 24px;
+    width: 110px; /* Adjust width as needed */
+    height: 55px; /* Match the height of .input-container */
+    padding: 0 20px; /* Add padding for better spacing */
+    font-size: 16px;
+    border-radius: 10px; /* Match the border-radius of .input-container */
     font-weight: bold;
     border: none;
     background-color: #3b82f6;
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Apply for Trademark Button */
 .trademark-button {
-    padding: 10px 20px; /* Increase button size */
-    font-size: 16px; /* Increase font size */
-    border-radius: 24px;
+    margin-left: 10px;
+    width: auto; /* Adjust width as needed */
+    height: 55px; /* Match the height of .input-container */
+    padding: 0 20px; /* Add padding for better spacing */
+    font-size: 16px;
+    border-radius: 10px; /* Match the border-radius of .input-container */
     font-weight: bold;
     border: none;
     background-color: #e7760d;
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 /* Navigation Links Below Search Bar */
@@ -157,4 +180,200 @@
 .nav-links .active {
     color: #0073e6;
     font-weight: bold;
+}
+
+/* Main Container */
+#cont-1 {
+    display: flex;
+    
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px; 
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Left Section - Title */
+#cont11 {
+   
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#cont12 {
+ 
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Right Section - Buttons */
+#cont2 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+   
+    flex-direction: row;
+    height: 70%;
+}
+
+/* Button Wrapper */
+#cont2_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: auto;
+
+}
+
+/* Individual Button Containers */
+#cont21, #cont22, #cont23 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Normal Button - bt_1 */
+.bt_1 {
+    padding: 8px 15px;
+    background-color: white; /* Background is white */
+    color: #3b82f6; /* Font color is blue */
+    border: 2px solid #3b82f6; /* Border is blue */
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between image and text */
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Circular Buttons */
+.bt_2, .bt_3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Colors */
+.bt_1 {
+    background-color: white; /* Background is white */
+    color: #3b82f6; /* Font color is blue */
+    border: 2px solid #3b82f6; /* Border is blue */
+}
+
+/* Button 2 - bt_2 */
+.bt_2 {
+    background-color: white; /* Background is white */
+    color: black; /* Font color is black */
+    border: 2px solid #666; /* Border is light black */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    border-radius: 50%; /* Circular button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button 3 - bt_3 */
+.bt_3 {
+    background-color: white; /* Background is white */
+    color: black; /* Font color is black */
+    border: 2px solid #666; /* Border is light black */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    border-radius: 50%; /* Circular button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Image inside Button 1 */
+.bt_1 img {
+    width: 20px;
+    height: 20px;
+    filter: invert(33%) sepia(100%) saturate(750%) hue-rotate(190deg) brightness(95%) contrast(90%); /* Makes the image blue */
+}
+
+/* Image inside Button 2 */
+.bt_2 img {
+    width: 20px;
+    height: 20px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); /* Makes the image black */
+}
+
+/* Image inside Button 3 */
+.bt_3 img {
+    width: 35px; /* Increase the size of the image */
+    height: 35px; /* Increase the size of the image */
+    filter: none; /* No color filter applied */
+    object-fit: contain; /* Ensures the image fits within the button without distortion */
+}
+
+/* Hover Effects */
+.bt_1:hover, .bt_2:hover, .bt_3:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+/* Active (Click) Effect */
+.bt_1:active, .bt_2:active, .bt_3:active {
+    transform: scale(0.95);
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bt_3 img {
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px; /* Space between links */
+    padding: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px; /* Set font size for text */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between image and text */
+}
+
+.nav-links img {
+    width: 30px; /* Increase the size of the image */
+    height: 30px; /* Increase the size of the image */
+    vertical-align: middle; /* Align image with text */
 }

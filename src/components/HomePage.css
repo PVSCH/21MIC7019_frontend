@@ -1,0 +1,121 @@
+
+.home-1{
+    display: flex;
+   justify-content: space-around;
+   padding-top: 100px;
+   flex-direction: row;
+   padding-top: 5px;
+   height: fit-content;
+   height: 500px;
+   
+}
+.home-2{
+   
+    width: 100%;
+  
+    background-color: white;
+}
+.home-3{
+
+    width: 40%;
+    background-color: white;
+}
+.home-2 {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Search Section */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.search-btn {
+    border: 1px solid #FF7F50;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #FF7F50;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #FF7F50;
+    color: white;
+}
+
+/* Table Layout */
+.table-container {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.table-head {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #555;
+    padding: 10px 0;
+}
+
+.table-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo (Mark) */
+.logo-box img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+/* Details Section */
+.info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box strong {
+    font-size: 16px;
+    color: black;
+}
+
+.info-box span {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Status Section */
+.status-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.active-status {
+    color: green;
+    font-weight: bold;
+}
+
+.expire-status {
+    color: red;
+    font-size: 14px;
+}
+
+/* Class & Description */
+.class-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #333;
+}
