@@ -1,5 +1,79 @@
-#container{
-    background-color: red;
+#container {
+  display: flex;
+  align-items: center;
+  padding: 8px 60px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom: 1px solid #ddd; /* Subtle border for separation */
+}
 
-    
+#logo {
+  margin-right: 20px; /* Space between logo and search bar */
+}
+
+#logo img {
+  width: 174px; /* Set the width of the logo */
+  height: 24.5px; /* Set the height of the logo */
+  object-fit: contain; /* Ensures the logo scales properly */
+}
+
+#search-bar {
+  display: flex;
+  align-items: center; /* Ensures all elements are vertically aligned */
+  margin-left: 20px; /* Space between the logo and search bar */
+  width: 100%; /* Ensure the search bar takes up the remaining space */
+  position: relative; /* Make the search bar a relative container */
+}
+
+#search-icon {
+  position: absolute; /* Position the icon inside the input field */
+  right: 10px; /* Position the icon 10px from the right edge of the input */
+  top: 50%; /* Center the icon vertically */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  pointer-events: none; /* Prevent the icon from blocking input interactions */
+}
+
+#search-icon img {
+  width: 20px; /* Set the width of the camera icon */
+  height: 20px; /* Set the height of the camera icon */
+}
+
+#search-bar input {
+  width: 672px; /* Set the width of the search bar */
+  height: 40px; /* Set the height of the search bar */
+  padding: 8px 8px 8px 15px; /* Add left padding for text */
+  font-size: 14px; /* Reduce the font size of the placeholder text */
+  font-weight: 500; /* Use a lighter font weight for the placeholder text */
+  border: 1px solid #ccc;
+  border-radius: 12px; /* Rounded corners */
+  margin-right: 15px; /* Space between input and the "Search" button */
+}
+
+#search-bar button {
+  padding: 16px 20px; /* Adjust padding to match the height of the search bar */
+  font-size: 16px; /* Slightly larger font for buttons */
+  border: 1px solid rgba(67, 128, 236, var(--tw-border-opacity)); /* Updated border color with opacity */
+  background-color: #3289e6; /* Blue background for buttons */
+  color: white;
+  cursor: pointer;
+  border-radius: 12px; /* Rounded corners */
+  font-weight: bold; /* Make the font bold */
+  width: 120px; /* Increased width of the "Search" button */
+}
+
+#search-bar button:last-child {
+  margin-left: auto; /* Push the "Apply for Trade" button to the far right */
+  border-radius: 12px; /* Fully rounded corners for the second button */
+  background-color: rgb(231, 118, 13); /* Orange background for "Apply for Trade" */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold; /* Make the font bold */
+  font-size: 18px;
+  height: 48px; /* Match the height of the "Search" button */
+  width: 180px; /* Increased width to fit the full text */
+  padding: 8px 12px; /* Adjust padding for better spacing */
+  text-align: center; /* Ensure text is centered */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+#search-bar button:hover {
+  opacity: 0.9; /* Slight hover effect */
 }
