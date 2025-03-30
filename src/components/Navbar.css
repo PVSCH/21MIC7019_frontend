@@ -1,6 +1,6 @@
 /* Navbar Container */
 body {
-    background-color: #f0f0f0; /* Set the background color of the entire page to light gray */
+    background-color: #ffefef; /* Set the background color of the entire page to light gray */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 12px 40px; /* Increase padding to move the container towards the right */
-    background-color: #ffffff;
+    background-color: #f3f1f1;
     border-bottom: 1px solid #ddd;
     width: 100%;
     box-sizing: border-box;
@@ -207,8 +207,10 @@ body {
 #cont12 {
  
     padding-left: 50px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight:550;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #666;
 }
 
 /* Right Section - Buttons */
@@ -370,6 +372,22 @@ body {
     display: flex;
     align-items: center;
     gap: 5px; /* Space between image and text */
+    position: relative; /* Required for the bottom border effect */
+}
+
+/* Hover Effect for Navigation Links */
+.nav-links a:hover {
+    color: black; /* Keep the text color black */
+}
+
+.nav-links a:hover::after {
+    content: ''; /* Add a pseudo-element for the bottom border */
+    position: absolute;
+    bottom: -2px; /* Position the border slightly below the text */
+    left: 0;
+    width: 100%; /* Make the border span the full width of the link */
+    height: 2px; /* Set the height of the border */
+    background-color: gray; /* Set the border color to gray */
 }
 
 .nav-links img {
@@ -377,3 +395,6 @@ body {
     height: 30px; /* Increase the size of the image */
     vertical-align: middle; /* Align image with text */
 }
+
+/* Hover effect for tbl-3-1 */
+
