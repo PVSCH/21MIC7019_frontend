@@ -7,8 +7,7 @@
 Trademarkia Summer Internship - React Project
 This project was developed as part of the Trademarkia Summer Internship program. The React-based frontend implements a loading state and is deployed on Vercel.
 
-🚀 Deployment
-The project is live at:
+🚀 Deployment:-->
 Live Demo: [https://21-mic-7019-frontend.vercel.app/](https://21-mic-7019-frontend.vercel.app/)
 
 🛠️ Features
