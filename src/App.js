@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 import HomePage from "./components/HomePage";
 
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -23,7 +24,10 @@ function App() {
           <p>Loading...</p>
         </div>
       ) : (
-        <HomePage />
+        <div>
+          <HomePage />
+        
+        </div>
       )}
     </div>
   );
