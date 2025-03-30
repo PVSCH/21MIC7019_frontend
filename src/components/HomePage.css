@@ -1,461 +1,409 @@
-.home-1{
+.home-1 {
     display: flex;
-   justify-content: space-around;
-   padding-top: 100px;
-   flex-direction: row;
-   padding-top: 5px;
-   height: fit-content;
-   height: 500px;
-  
-   
+    justify-content: space-around;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-top: 5px;
+    height: fit-content;
+    height: 100%;
 }
-.home-2{
+
+.home-2 {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 100%;
-  
     background-color: white;
-    
     width: 100%;
     font-family: Arial, sans-serif;
     padding: 40px;
     padding-left: 50px;
     background-color: white;
-
+    height: 100%;
 }
-.home-3{
 
+.home-3 {
+    display: flex;
     width: 40%;
     background-color: white;
 }
 
-.tbl-1{
+.tbl-1 {
     display: flex;
-   
-    gap:10px;
+    gap: 10px;
 }
 
-/* Buttons in tbl-1 */
 .tbl-1 button, .tbl-1-2 button, .tbl-1-3 button {
-    padding: 6px 8px; /* Reduce padding to make the button smaller */
-    font-size: 14px; /* Reduce font size */
-    color: rgb(231, 114, 11);; /* Set font color to red */
-    background-color: rgb(249, 240, 233); /* Set button background color to white */
-    border: 1px solid rgb(231, 114, 11); /* Set border color to red */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    cursor: pointer; /* Add pointer cursor on hover */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
-
+    padding: 6px 8px;
+    font-size: 14px;
+    color: rgb(231, 114, 11);
+    background-color: rgb(249, 240, 233);
+    border: 1px solid rgb(231, 114, 11);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.tbl-2{
+.tbl-2 {
     display: flex;
-    
     align-items: center;
     flex-grow: 0.1;
     border-bottom: 1px solid rgb(209, 189, 189);
-    
 }
 
-.tbl-2-1,.tbl-2-2,.tbl-2-3,.tbl-2-4{
+.tbl-2-1, .tbl-2-2, .tbl-2-3, .tbl-2-4 {
     display: flex;
     padding-left: 20px;
     width: 20%;
 }
 
-.tbl-3{
+.tbl-3 {
     display: flex;
-   
     height: 150px;
-    
-    
-
 }
 
-.tbl-3-1{
+.tbl-3-1 {
     display: flex;
     padding-left: 20px;
     width: 22%;
-   
     padding-top: 10px;
-    
 }
-.tbl-3-1-1{
-    
+
+.tbl-3-1-1 {
     padding-left: 10px;
     padding-top: 10px;
-   
-
 }
 
-/* Image inside tbl-3-1-1 */
 .tbl-3-1-1 img {
-    border-radius: 10px; /* Add rounded corners to the image */
-    object-fit: cover; /* Ensure the image fits within its container */
+    border-radius: 10px;
+    object-fit: cover;
 }
 
-/* Consolidated hover effect for .tbl-3 */
 .tbl-3:hover {
-    background-color: rgb(234, 234, 234); /* Unified hover background color for the whole table */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
-    border-radius: 12px; /* Add rounded corners */
-}
-
-/* Darker effect for .tbl-3-1 when .tbl-3 is hovered */
-.tbl-3:hover .tbl-3-1 {
-    background-color: rgb(224, 224, 224); /* Slightly darker gray for .tbl-3-1 */
+    background-color: rgb(234, 234, 234);
     transition: background-color 0.3s ease;
-    border-radius: 12px; /* Smooth transition effect */
+    border-radius: 12px;
 }
 
-.tbl-3-2{
+.tbl-3:hover .tbl-3-1 {
+    background-color: rgb(224, 224, 224);
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+}
+
+.tbl-3-2 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     width: 100%;
 }
-.tbl-3-2-1{
+
+.tbl-3-2-1 {
     display: flex;
-    
-    
-   
 }
-.tbl-3-2-1-1{
+
+.tbl-3-2-1-1 {
     width: 27%;
-    
     padding-left: 40px;
-    
 }
-.tbl-3-2-1-2{
+
+.tbl-3-2-1-2 {
     display: flex;
     flex-direction: column;
-   
     width: 28%;
 }
 
-/* Decrease font size for Retail footwear */
 .tbl-3-2-1-3 {
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px;
 }
 
-.tbl-3-2-2{
-
-display: flex;
-flex-direction: row;
-width: 100%;
-
+.tbl-3-2-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
-.tbl-3-2-2-1{
+
+.tbl-3-2-2-1 {
     display: flex;
     width: 27%;
     padding-left: 38px;
     flex-direction: column;
 }
-.tbl-3-2-2-2{
+
+.tbl-3-2-2-2 {
     width: 28%;
 }
 
-/* Ensure image and text are on the same line */
 .tbl-3-2-2-2 {
-    display: flex; /* Align items horizontally */
-    align-items: center; /* Vertically align items */
-    gap: 8px; /* Add spacing between the image and text */
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-/* Green Dot Styling */
 .green-dot {
     display: inline-block;
-    width: 10px; /* Size of the dot */
-    height: 10px; /* Size of the dot */
-    background-color: rgb(12, 211, 12); /* Green color for the dot */
-    border-radius: 50%; /* Makes the dot circular */
-    margin-right: 8px; /* Space between the dot and the text */
-    vertical-align: middle; /* Aligns the dot with the text */
+    width: 10px;
+    height: 10px;
+    background-color: rgb(12, 211, 12);
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
 }
 
-/* Green Text Styling */
 .green-text {
-    color: rgb(10, 196, 10); /* Set text color to green */
-    font-weight: bold; /* Optional: Make the text bold */
+    color: rgb(10, 196, 10);
+    font-weight: bold;
 }
 
-/* Decrease font size for info-2 */
 .info-2 {
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px;
 }
 
-/* Decrease font size for on 24th oct 2023 */
 .info-4 {
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px;
 }
 
-/* Decrease font size for 23 Mar 1981 */
 .info-6 {
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px;
 }
 
-/* Decrease font size for text */
 .small-text {
-    font-size: 12px; /* Adjust font size as needed */
-    color: inherit; /* Keep the same text color */
-    vertical-align: middle; /* Align text with the image */
+    font-size: 12px;
+    color: inherit;
+    vertical-align: middle;
 }
 
-/* Optional: Adjust spacing for images */
 .tbl-3-2-2-2 img {
-    width: 16px; /* Decrease image width */
-    height: 16px; /* Decrease image height */
-    margin-right: 5px; /* Adjust spacing between image and text */
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
 }
 
-/* Bold text styling */
 .bold-text {
-    font-weight: bold; /* Make the text bold */
+    font-weight: bold;
 }
 
-/* Decrease font size for bold text */
 .bold-small-text {
-    font-size: 12px; /* Adjust font size as needed */
-    font-weight: bold; /* Keep the text bold */
-    color: inherit; /* Maintain the current text color */
+    font-size: 12px;
+    font-weight: bold;
+    color: inherit;
 }
 
-/* Base hover style for all elements */
-
-.home-3{
+.home-3 {
     display: flex;
     flex-direction: column;
     height: 100%;
     padding-top: 50px;
     border-left: 5px solid rgb(237, 234, 234);
     align-items: center;
-    gap:10px;
-    
-    
-
-
-    
+    gap: 10px;
 }
 
-
 .right-bar-1 {
-    
-    
-    width: 296px; /* Set the width */
-    height: 161px; /* Set the height */
+    width: 296px;
+    height: 161px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    box-shadow: 0px 2px 8px  rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
-   
 }
-.right-col-2{
-    display: flex;
 
+.right-col-2 {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   
     height: 50px;
     align-items: center;
-
-    
 }
-.right-col-21{
+
+.right-col-21 {
     display: flex;
     flex-direction: row;
     padding-left: 10px;
-   
     height: 50px;
     align-items: center;
     gap: 8px;
 }
-.right-col-2-1,.right-col-2-2,.right-col-2-3,.right-col-2-4,.right-col-2-5{
+
+.right-col-2-1, .right-col-2-2, .right-col-2-3, .right-col-2-4, .right-col-2-5 {
     border: 2px solid rgb(212, 205, 205);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
-    
-  
 }
 
-.right-col-2-1{
-   
+.right-col-2-1 {
     height: 37px;
     width: 46px;
 }
 
-.right-col-2-2{
+.right-col-2-2 {
     height: 37px;
-    width:110.24px
+    width: 110.24px;
 }
-.right-col-2-3{
+
+.right-col-2-3 {
     height: 37px;
     width: 93.24px;
 }
-.right-col-2-4{
+
+.right-col-2-4 {
     height: 37px;
     width: 117.24px;
 }
-.right-col-2-5{
+
+.right-col-2-5 {
     height: 37px;
     width: 84.24px;
 }
 
-/* Add green dot for Registered */
 .right-col-2-2::before {
     content: '';
     display: inline-block;
-    width: 10px; /* Size of the dot */
-    height: 10px; /* Size of the dot */
-    background-color: green; /* Green color for Registered */
-    border-radius: 50%; /* Make the dot circular */
-    margin-right: 8px; /* Space between dot and text */
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 8px;
 }
 
-/* Add yellow dot for Pending */
 .right-col-2-3::before {
     content: '';
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: rgb(230, 230, 6); /* Yellow color for Pending */
+    background-color: rgb(230, 230, 6);
     border-radius: 50%;
     margin-right: 8px;
 }
 
-/* Add red dot for Abandoned */
 .right-col-2-4::before {
     content: '';
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: red; /* Red color for Abandoned */
+    background-color: red;
     border-radius: 50%;
     margin-right: 8px;
 }
 
-/* Add blue dot for Others */
 .right-col-2-5::before {
     content: '';
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: blue; /* Blue color for Others */
+    background-color: blue;
     border-radius: 50%;
     margin-right: 8px;
 }
-.right-col-1{
+
+.right-col-1 {
     padding-top: 10px;
     padding-left: 10px;
-    
 }
 
-.col2-1{
+.col2-1 {
     display: flex;
-    
-    flex-direction:column;
-    height:256px;
-    width:296px;
-    gap:20px;
-    box-shadow: 0px 2px 8px  rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    height: 256px;
+    width: 296px;
+    gap: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
-    
 }
-.col2-1-1{
+
+.col2-1-1 {
     display: flex;
     flex-direction: row;
-    
     justify-content: space-around;
     align-items: center;
     padding-top: 15px;
 }
+
 .box-1:hover {
     border-bottom: 2px solid black;
-    
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
-
 }
+
 .box-2:hover {
     border-bottom: 2px solid black;
-   
-
 }
+
 .box-3:hover {
     border-bottom: 2px solid black;
-
-
 }
-.col2-1-2{
+
+.col2-1-2 {
     display: flex;
     justify-content: center;
 }
 
 .search1-box {
-    width: 256px; /* Set the width */
-    height: 40px; /* Set the height */
-    border-radius: 10px; /* Add rounded corners */
-    border: 1px solid #ccc; /* Add a 1px border with a light gray color */
-    padding: 8px; /* Add padding for better spacing inside the input */
-    font-size: 14px; /* Adjust font size */
-    outline: none; /* Remove default outline on focus */
+    width: 256px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    outline: none;
 }
 
 .search1-box:focus {
-    border-color: #007BFF; /* Change border color on focus */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle glow effect */
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
 .checkbox1 {
-    width: 24px; /* Set the width */
-    height: 24px; /* Set the height */
-    margin-right: 8px; /* Optional: Add spacing between the checkbox and the label text */
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
     cursor: pointer;
-    border-radius: 12px; /* Change cursor to pointer for better UX */
+    border-radius: 12px;
 }
-.col2-1-3{
+
+.col2-1-3 {
     padding-left: 20px;
 }
-.col-3{
+
+.col-3 {
     display: flex;
     height: 124px;
     width: 296px;
     border-radius: 12px;
-   
-  
     align-items: center;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
     box-shadow: 0 0 5px rgba(69, 70, 71, 0.5);
-    
 }
-.Mega-box{
+
+.Mega-box {
     display: flex;
-     border: 1px solid rgb(171, 171, 171);
-    border-radius:11px;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 11px;
     width: 255px;
-    height:50px;
-    
+    height: 50px;
     background-color: rgb(223, 223, 223);
     justify-content: center;
     align-items: center;
-    gap:20px
-    
-
-    
-    
-    
+    gap: 20px;
 }
-.box-9{
-   background-color: white;
-   height: 36px;
-   width: 125px;
-   align-content: center;
-   text-align-last: center;
-   border-radius:8px;
-   
-    
-    
 
+.box-9 {
+    background-color: white;
+    height: 36px;
+    width: 125px;
+    align-content: center;
+    text-align-last: center;
+    border-radius: 8px;
+}
+
+.space {
+    height: 100%;
+}
+
+.hidden-box {
+    visibility: hidden;
+    height: max-content;
 }
