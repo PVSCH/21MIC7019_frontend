@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAD Trademarkia Summer Internship - React Project
 # 21MIC7019- VIT-AP 
 =======
 
