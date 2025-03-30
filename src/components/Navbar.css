@@ -358,6 +358,9 @@ body {
     width: 30px;
     height: 30px;
     vertical-align: middle;
+    background-color: transparent; /* Ensure no background color */
+    border-radius: 50%; /* Optional: Make the images circular */
+    object-fit: cover; /* Ensure the image fits properly */
 }
 
 .search-input1 {
