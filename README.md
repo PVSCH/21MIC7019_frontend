@@ -9,7 +9,7 @@ This project was developed as part of the Trademarkia Summer Internship program.
 
 🚀 Deployment
 The project is live at:
-🔗 21-mic-7019-frontend.vercel.app
+Live Demo: [https://21-mic-7019-frontend.vercel.app/](https://21-mic-7019-frontend.vercel.app/)
 
 🛠️ Features
 ✅ Implemented a loading state for better user experience.
