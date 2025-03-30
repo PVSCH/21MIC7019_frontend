@@ -21,7 +21,7 @@ const Navbar = () => {
                 alt="Search" 
               />
             </div>
-            {/* <input className="search-input" type="text" placeholder="Search for trademarks..." /> */}
+            <input className="search-input1" type="text" placeholder="Search for trademarks..." />
             <div className="camera-icon">
               <img 
                 src="https://png.pngtree.com/element_our/png/20181227/camera-glyph-black-icon-png_291736.jpg" 

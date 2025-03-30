@@ -1,20 +1,24 @@
 /* Navbar Container */
 body {
-    background-color: #ffefef; /* Set the background color of the entire page to light gray */
+    background-color: #eae6e6; /* Set the background color of the entire page to light gray */
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    
+  
 }
 
 .navbar {
     display: flex;
     flex-direction: column;
     padding: 12px 40px; /* Increase padding to move the container towards the right */
-    background-color: #f3f1f1;
+    background-color: #f6f6f6;
     border-bottom: 1px solid #ddd;
     width: 100%;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the page */
+    left: 0; /* Align it to the left */
+    z-index: 1000; /* Ensure it stays above other elements */
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 /* Top Section - Logo, Search Bar, and Apply Button */
@@ -185,21 +189,26 @@ body {
 /* Main Container */
 #cont-1 {
     display: flex;
-    
+ /* Make the navbar fixed */
+ 
     flex-direction: row;
     height: 70px;
     align-items: center;
     justify-content: space-between;
     padding: 5px 20px; 
-    box-sizing: border-box;
+   
     background-color: white;
+    margin-top:140px;
+    
+    
+    
+  
 }
 
 /* Left Section - Title */
 #cont11 {
-   
-    width: 100%;
     display: flex;
+      width: 100%;
     height: 100%;
     align-items: center;
 }
@@ -218,7 +227,7 @@ body {
     display: flex;
     justify-content: center;
     width: 40%;
-   
+    
     flex-direction: row;
     height: 70%;
 }
@@ -256,6 +265,7 @@ body {
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    
 }
 
 /* Circular Buttons */
@@ -272,6 +282,7 @@ body {
     font-weight: bold;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    z-index: 10; /* Set a lower z-index for these buttons */
 }
 
 /* Button Colors */
@@ -398,3 +409,10 @@ body {
 
 /* Hover effect for tbl-3-1 */
 
+.search-input1{
+    width: 100%;
+    margin-left: 50px;
+    height: 50px;
+    text-align-last:left;
+    border:0;
+}
